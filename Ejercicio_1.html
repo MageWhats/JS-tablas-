@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+    
+    
+    </style>
+</head>
+<body onload="crearTabla()">
+<section id="butaca">
+
+    <p></p>
+    <p></p>
+    <table id="tabla" onclick="cambiaColor()"></table>
+
+    </section>
+
+    <h1>Un titulo </h1>
+    <h2>Un Subtitulo</h2>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam illo enim magni doloremque id eos velit accusamus quia officia incidunt. Praesentium, consequuntur voluptatum! Et vel quas quasi pariatur id labore.}</p>
+    <p id="Segundo parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, non alias suscipit ipsum assumenda doloremque nemo itaque explicabo recusandae quaerat, atque dolorem exercitationem incidunt quo similique obcaecati dicta ipsa! Esse.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae veritatis incidunt molestias, perspiciatis fugiat enim quas placeat, dolorum ex temporibus totam assumenda blanditiis numquam ratione vel possimus, tenetur maxime aperiam.</p>
+
+    <script>
+        
+/*        
+        //elementos= document.getElementsByTagName("h1")
+        //elementosid=document.getElementsByTagName("Segundo parrafo")
+        elem=document.createElement("p");
+        Text= document.createTextNode("Soy un nuevo parrafo")
+
+
+        elem.appendChild(text)
+
+        document.body.appendChild(elem)
+*/
+        
+
+        /*Agregar un aimagen*/
+
+        Imagen = document.createElement("img");
+        Imagen.setAttribute("src", "gatito.jpg");
+        Imagen.setAttribute("alt", "Imagen diplomado");
+        Imagen.setAttribute("width","400px");
+        Imagen.setAttribute("heigth", "200px");
+        document.body.appendChild(Imagen);
+
+        /*Agregar un enlace*/
+        Enlace = document.createElement("a")
+        otroText=document.createTextNode("Vamos a la cbn")
+        Enlace.setAttribute("href","http://www.cbn.edu.co/")
+        
+        Enlace.appendChild(otroText)
+        document.body.appendChild(Enlace);
+         
+
+        tabla = document.createElement("table");
+        tblBody = document.createElement("tbody");
+        hilera = document.createElement("tr");
+                    
+
+
+
+         
+
+
+
+    </script>
+</body>
+</html>
